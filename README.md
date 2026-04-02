@@ -1,6 +1,3 @@
-# bacterial-AMR-profiling
-Python scripts to filter and convert AMRFinderPlus  output into presence/absence matrices for AMR  genomic analysis
-
 # Bacterial AMR Profiling Scripts
 
 Python scripts for parsing and analyzing 
@@ -15,7 +12,7 @@ AMRFinderPlus output files.
 - Builds drug class presence/absence matrix
 - Reports summary statistics
 - Saves matrices as CSV files ready for 
-  downstream analysis (Pyseer bGWAS)
+  downstream analysis
 
 ## Requirements
 - Python 3
