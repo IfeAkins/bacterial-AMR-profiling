@@ -1,7 +1,7 @@
 # Bacterial AMR Profiling Scripts
 
 Python scripts for parsing and analyzing 
-AMRFinderPlus output files.
+[AMRFinderPlus ](https://github.com/ncbi/amr) output files.
 
 ## What it does
 - Loads AMRFinderPlus combined output
