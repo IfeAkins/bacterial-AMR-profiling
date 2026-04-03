@@ -21,9 +21,29 @@ Python scripts for parsing and analyzing
 ## Usage
 python amrfinder_matrix.py
 
-## Output
-- AMRFinder_genes_matrix.csv
-- AMRFinder_gene_class_matrix.csv
-
 ## Input
 AMRFinderPlus combined output CSV file
+
+## Output Files
+
+### AMRFinder_genes_matrix.csv
+Presence/absence matrix (1=present, 0=absent) 
+of individual AMR genes per isolate, 
+with genes grouped under their drug class.
+
+### AMRFinder_gene_class_matrix.csv
+Count matrix showing the number of AMR genes 
+per drug class per isolate. For example, 
+a value of 3 means the isolate carries 
+3 genes belonging to that drug class.
+
+## Example Data
+Example input and output files are provided 
+in the `example_data/` folder, using data 
+from the following published study:
+
+[Akintayo et al. (2026) PLOS Water](https://journals.plos.org/water/article?id=10.1371/journal.pwat.0000419)
+
+- `example_amrfinder_result.csv` → example AMRFinderPlus input (10 isolates)
+- `AMRFinder_genes_matrix.csv` → gene presence/absence matrix
+- `AMRFinder_gene_class_matrix.csv` → drug class count matrix
